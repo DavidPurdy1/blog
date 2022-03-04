@@ -1,0 +1,19 @@
+---
+---
+
+@import "minima";
+
+.wrapper{
+  max-width: 60%;
+}
+
+#portrait{
+  float: right;
+}
+
+@media screen and (max-width: 800px) {
+  .wrapper { max-width: 100%; }
+  #portrait{float: none;}
+}
+
+
